@@ -1,0 +1,58 @@
+<!--
+  Generated template for the HomeDetailPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <ion-title class="title">{{artist.title}}</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+
+<ion-content>
+    <div class="about-header">
+        <img  src="{{artist.photo}}"/>
+      </div>
+      <div padding class="about-info">
+        <div class = "artist-name">
+        <h4>{{artist.name}}</h4>
+      </div>
+
+      <p>{{artist.description}} </p>
+    
+        <ion-list class="list" no-lines>
+          <ion-item>
+            <ion-icon name="calendar" item-start></ion-icon>
+            <ion-label>{{artist.startDate}} - {{artist.endDate}}</ion-label>
+          </ion-item>
+    
+          <ion-item>
+            <ion-icon name="time" item-start></ion-icon>
+            <ion-label>
+                {{artist.openingTime}} - {{artist.closingTime}}
+            </ion-label>
+          </ion-item>
+
+          <ion-item>
+              <ion-icon name="mail" item-start></ion-icon>
+              <ion-label>
+                  {{artist.email}}
+              </ion-label>
+            </ion-item>  
+        </ion-list>
+
+        <div class ="directions">
+        <button ion-button full (click)= "getDirections(artist.coords)">Get Directions</button>
+      </div>
+      <div class ="website">
+        <button ion-button full (click)= "openUrl(artist.website)">Artist Website</button>
+      </div>
+      </div>
+  </ion-content>
+ 
+ 

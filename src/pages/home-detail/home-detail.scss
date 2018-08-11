@@ -1,0 +1,89 @@
+
+
+// .headerImg {
+//   height: 40vh;
+//   width: auto;
+//   margin: auto;
+//   display: block;
+//   margin-top:30px;
+// }
+
+//   .item-detail {
+//     margin-top: 20px;
+//     width: 100%;
+//     background: white;
+//     position: absolute;
+//     text-align: justify;
+//   }
+
+//   .directions{
+//     position: fixed;
+//     left: 0;
+//     bottom: 10px;
+//     right: 0;
+//   }
+
+
+  .about-header {
+    background-image:url('../assets/imgs/paperbk.jpg');
+    padding: 16px;
+    width: 100%;
+    min-height: 150px;
+    text-align: center;
+  }
+  
+  .about-header img {
+    width: 200px;
+    height: auto;
+    margin-left: -15px;
+    padding: 25px 0 20px 0;
+  }
+  
+  .about-info p {
+    color: #5a5f61;
+    text-align: justify;
+    line-height: 1.7em;
+    font-size: 15px;
+
+  }
+  
+  .about-info ion-icon {
+    color: color($colors, primary);
+    width: 10px;
+  }
+  
+  .md,
+  .wp {
+    .about-info [text-right] {
+      margin-right: 0;
+    }
+  }
+  
+  .ios .about-info {
+    text-align: center;
+  }
+  
+  .ios .about-info ion-icon {
+    width: auto;
+   
+  }
+
+  .directions{
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .artist-name h4{
+
+    text-align: center;
+  }
+
+  .title{
+
+    text-align: center;
+    margin-right: 20%;
+  }
+.list{
+  margin-left: 15%;
+}

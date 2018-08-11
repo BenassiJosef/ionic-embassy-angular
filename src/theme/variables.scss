@@ -14,6 +14,10 @@ $app-direction: ltr;
 
 @import "ionic.globals";
 
+.pageTitle{
+  margin-left: 25%;
+}
+
 
 // Shared Variables
 // --------------------------------------------------
@@ -34,11 +38,11 @@ $app-direction: ltr;
 // The "primary" color is the only required color in the map.
 
 $colors: (
-  primary:    #488aff,
+  primary:    #313030,
   secondary:  #32db64,
   danger:     #f53d3d,
-  light:      #f4f4f4,
-  dark:       #222
+  light:      #ffffff,
+  dark:       rgb(75, 73, 73)
 );
 
 

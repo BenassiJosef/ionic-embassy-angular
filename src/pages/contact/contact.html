@@ -1,17 +1,19 @@
 <ion-header>
   <ion-navbar>
     <ion-title>
-      Contact
+        <div>Ashanti Harris</div>
     </ion-title>
   </ion-navbar>
 </ion-header>
 
 <ion-content>
-  <ion-list>
-    <ion-list-header>Follow us on Twitter</ion-list-header>
-    <ion-item>
-      <ion-icon name="ionic" item-start></ion-icon>
-      @ionicframework
-    </ion-item>
-  </ion-list>
+<div class="feature" *ngFor="let feat of featured" >
+    <p>{{feat.description}}</p>
+    <p>hello joe</p>
+</div>
+<div class="button">
+    <button ion-button full (click)="startVideo()">Start Video</button>
+</div>
+
 </ion-content>
+
